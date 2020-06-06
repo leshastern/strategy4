@@ -31,7 +31,7 @@ public:
 	void DoSomeBusinessLogic() const
 	{
 		
-		string result = this->strategy_->DoAlgorithm();
+		string result = this->strategy_->payment();
 		cout << result << endl;
 	}
 };
